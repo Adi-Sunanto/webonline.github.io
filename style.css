@@ -1,0 +1,158 @@
+/* root */
+h1,
+h2,
+h3,
+h4 {
+  font-family: viga;
+}
+button {
+  padding: 13px 35px;
+  border: 0;
+  outline: none;
+  border-radius: 25px;
+  background: #2e4053;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+/* End Root */
+
+/* Navbar */
+.navbar {
+  height: 70px;
+}
+.navbar-brand {
+  font-family: viga;
+  font-size: 30px;
+  color: black;
+}
+.nav-link {
+  margin-top: 15px;
+  color: #fff !important;
+  margin-right: 10px;
+  font-size: 15px;
+}
+/* End Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(assets/images/pair-of-gray-vans-low-top-sneakers-beside-black-shirt-1639729.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.jumbotron .display-4 {
+  color: #fff;
+  font-family: viga;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.lead {
+  color: #fff;
+  font-weight: 450;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* End Jumbotron */
+
+/* Display */
+.row .image img {
+  width: 500px;
+  height: 350px;
+}
+.btn:hover {
+  background: #00ffff;
+}
+/* End Display */
+
+/* Footer */
+footer {
+  background-color: #2e4053;
+  color: #fff;
+  margin: auto;
+  width: 100%;
+}
+.credit {
+  margin-bottom: 10px;
+}
+.copyright {
+  text-align: center;
+  height: 30px;
+  background-color: #1c2833;
+}
+.i {
+  margin-right: 25px;
+}
+/* Footer */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-brand {
+    color: #fff !important;
+    margin-top: 15px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    border-bottom: 3px solid #ffbf00;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -8px;
+    padding-bottom: 5px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    margin-top: -70px;
+  }
+  /* End Jumbotron */
+
+  /* Footer */
+  footer {
+    background-color: #2e4053;
+    color: #fff;
+    margin: auto;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem;
+  }
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .credit {
+    max-width: 500px;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+  }
+  i {
+    margin-right: 25px;
+    cursor: pointer;
+  }
+  i:hover {
+    color: #ffbf00;
+  }
+  hr {
+    opacity: 0.8;
+  }
+  .copyright {
+    text-align: center;
+    height: 30px;
+    background-color: #1c2833;
+  }
+  /* Footer */
+}

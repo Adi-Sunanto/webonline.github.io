@@ -1,0 +1,73 @@
+/* Header*/
+.header {
+  background-color: #121e65;
+  height: 40px;
+}
+/* End Header */
+
+/* Navbar*/
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+}
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+/* End Navbar */
+
+/* Working Space*/
+.space {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.workingspace,
+.spacelast {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.workingspace h1 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* End Working Space */
+
+/* Jumbotron*/
+.jumbotron {
+  background-image: url(assets/images/pair-of-gray-vans-low-top-sneakers-beside-black-shirt-1639729.jpg);
+  background-size: cover;
+  height: 700px;
+  margin-top: 80px;
+}
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 40px;
+}
+
+/* End Jumbotron */
+
+/* Footer*/
+.footer {
+  background-color: #121e65;
+  height: 400px;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.footer h2,
+h5,
+h6 {
+  text-align: center;
+  color: white;
+}
+
+/* End Footer */
